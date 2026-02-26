@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
     private fun search(query: String) {
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("YOUR_PROJECT_URL/")
+            .baseUrl("https://jhyqyskemsvoizmmupka.supabase.co/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
